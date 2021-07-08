@@ -7,4 +7,7 @@ In the second part, if you are student of this school, you can log in to the stu
 ## Third Part
 In the third part, if you are lecturer of this school, you can log in to the lecturer system. In the lecturer system, lecturers can see their own information, the courses they have given, the students of the courses they have given, and the articles they have written.
 
+# Thanks!
+This project was made for the Database course and it is a group project.  I would like to thank my bandmates Mihrimah GÖKNAR and Miray ONARAN for their efforts.
+
 
