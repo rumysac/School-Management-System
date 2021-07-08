@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(194, 206, 206);
+    font-family: 'Poppins',sans-serif;
+    background-image: url(Source/Login_panel_back_ground_img.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+.giris{
+text-align: center;
+width: 400px;
+box-sizing: border-box;
+padding: 40px;
+background: rgb(214, 219, 223);
+
+
+
+}
+
+
+.giris h2{
+
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+
+}
+
+.giris .pc {
+position: relative;
+width: 250px;
+margin-bottom: 25px;
+
+
+
+}
+
+.giris .pc input{
+width: 300px;
+height: 50px;
+padding: 0 20 px;
+box-sizing: border-box;
+font-size: 18px;
+outline: none;
+border: 1px solid #000;
+
+}
+
+.giris .pc span {
+
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #fff;
+    
+
+}
+
+
+.giris .pc input:focus  span,
+
+.giris .pc input:valid span{
+
+    top: -12px;
+    left: 12px;
+    font-size: 12px;
+    padding: 2px 4px;
+    border: 1px solid #000;
+    background: #ff0;
+
+}
+.giris .pc input[type="submit"]{
+    background: rgb(30, 135, 196);
+    border: none;
+    box-shadow: none;
+    
+    cursor: pointer;
+   font-size: large;
+}
+
+.giris .pc input[type="submit"]:hover{
+    background: #1a70d3;
+}
+
+.giris a{
+    color: #262626;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color: #666;
+
+
+}
+
+.giris a span{
+    color: #262626;
+    font-weight: 600;
+}
+.icons{
+    position: absolute;
+    left: 37%;
+    top: 75%;
+    text-decoration: none;
+}
+
+.icons div{
+    display: inline;
+    text-decoration: none;
+}
+.icons div a{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(9, 51, 105);
+    margin: 0 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.icons a i{
+    transition: 1.2s all;
+}
+
+.icons a:hover > i{
+    transform: scale(1.4) rotate(360deg);
+}
+
+.icons .facebook a:hover{
+    background: #4267b2;
+}
+.icons .twitter a:hover{
+    background: #1da1f2;
+}
+.icons .instagram a:hover{
+background: purple;
+
+}
+.icons .mail a:hover{
+
+background: rgb(89, 185, 185);
+}
+.icons .youtube a:hover{
+
+    background: red;
+    }
+
+    .icons .linkedin a:hover{
+        background: #1da1f2;
+    }
+
+    
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open sans"sans-serif;
+    }
+    
+    .fas.expand:before{
+    
+    content:'\f00d';
+    
+    
+    }
+    
+    ul{
+        list-style: none;
+        position: absolute;
+        display: block;
+        position:absolute;
+        top: 760px;
+     right:50px;
+        background: #344bce;
+        width: 15%;
+        text-align:center;
+        border-radius: 5px;
+        display: none;
+        box-shadow: 0 3px 6px  #344bce;
+    }
+    ul:before{
+        position: absolute;
+        content:'' ;
+        width: 20px;
+        height: 20px;
+        background: #344bce;
+        top:-10px;
+        right: 15px;
+        transform: rotate(45deg);
+        z-index: -1;
+    
+    }
+    
+    
+    ul li{
+        line-height: 35px;
+        padding: 8px 20 px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #344bce;
+    }
+    ul li:last-child{
+        border-bottom: none;
+    }
+    ul li:hover{
+        box-shadow: inset 0 0 5px #33ffff,
+        inset 0 0 5px #66ffff;
+    
+    
+    }
+    ul li:hover:first-child{
+        border-radius: 5p 5p 0 0;
+    }
+    ul li:hover:last-child{
+        border-radius: 0 0 5px 5px;
+    
+    }
+    
+    ul li a{
+        color:white;
+        font-size: 18px;
+        text-decoration: none;
+    
+    }
+    
+    ul li:hover a{
+        color:rgb(120, 140, 230);
+    }
+
+    .fixed{
+     position:absolute;
+     bottom:200px;
+     right:50px;
+     width: 400px;
+    }
